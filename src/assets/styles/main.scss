@@ -1,0 +1,18 @@
+
+//setup
+@import "setup/variables";
+@import "setup/typography";
+
+//basics
+@import "basics/base";
+@import "basics/layout";
+
+//pages
+@import "pages/home";
+
+//cmps
+@import "cmps/header";
+@import "cmps/banner";
+@import "cmps/product";
+
+

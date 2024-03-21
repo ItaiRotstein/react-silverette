@@ -1,0 +1,28 @@
+.product {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.product-img {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    img {
+        width: 440px;
+    }
+}
+
+.product-text {
+    
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.product-title {
+    margin-top: 11px;
+    font-size: 40px;
+    font-family: Gothic-Thin;
+    font-weight: 500;
+}

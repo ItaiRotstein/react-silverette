@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Gothic;
+  src: url(../../../assets/fonts/Gothic/GothicA1-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Gothic;
+}
+
+body {
+  margin: 0;
+  color: #546068;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  height: 70px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1607843137);
+  opacity: 0.94;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  width: 100%;
+  padding: 0px 31px;
+  margin-top: 8;
+  margin-bottom: 8;
+}
+
+.navbar {
+  display: flex;
+  width: 75%;
+  justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  list-style: none;
+}
+.navbar a {
+  text-decoration: none;
+  color: #546068;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.btn-main {
+  display: inline-block;
+  border-radius: 30px;
+  border: none;
+  background-image: linear-gradient(to right, #d78188 0, #c46797 33%, #d78188 66%, #d78188 100%);
+  background-size: 300%;
+  background-position: 0;
+  color: #e9e4e3;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 13px 30px;
+  line-height: 1;
+  cursor: pointer;
+  transition: background 0.7s ease, color 0.7s linear;
+}
+.btn-main:hover {
+  background-position: 100%;
+}
+
+/*# sourceMappingURL=main.css.map */
